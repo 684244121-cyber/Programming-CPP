@@ -1,3 +1,4 @@
+mylibrary.h:
 void myfunction();  //function declaration
 source.cpp:
 #include "myheader.h" //include the header
