@@ -5,7 +5,7 @@ int main()
     std::set<int> myset = { -10, 1, 3, 5, 6, 9, 15 };
     int findvalue = 5;
     auto foundit = myset.find(findvalue);
-if (foundit != myset.end())
+    if (foundit != myset.end())
     {
         std::cout << "Value found. Deleting the value..." << '\n';
         myset.erase(foundit);
